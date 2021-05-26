@@ -1,1 +1,0 @@
-# SAPonAzure-Lighthouse
