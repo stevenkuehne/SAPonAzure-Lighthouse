@@ -36,6 +36,11 @@
           "principalIdDisplayName": "msg services ag - Delegation Delete Role" 
         },
         { 
+          "principalId": "fc17f92d-75e5-4465-9d5c-dee78b1ca322", 
+          "roleDefinitionId": "36243c78-bf99-498c-9df9-86d9f8d28608",
+          "principalIdDisplayName": "msg services ag - Resource Policy Contributor" 
+        },
+        { 
           "principalId": "[parameters('groupId')]", 
           "roleDefinitionId": "73c42c96-874c-492b-b04d-ab87d138a893",
           "principalIdDisplayName": "msg services ag - Log Analytics Reader" 
