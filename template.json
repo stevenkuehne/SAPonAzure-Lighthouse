@@ -21,7 +21,7 @@
       "mspRegistrationName": "[guid(variables('mspOfferName'))]",
       "mspAssignmentName": "[guid(variables('mspOfferName'))]",
       "managedByTenantId": "c86baa0e-1787-4c27-9f54-ab92872c5e59",
-      "mspOfferPrefix": "msg services ag - ",
+      "mspOfferPrefix": "msg services ag -> ",
       "mspOfferName": "[concat(variables('mspOfferPrefix'), parameters('organizationName'))]",
       "mspOfferDescription": "[concat('Azure Lighthouse deployment ', variables('mspOfferPrefix'), parameters('organizationName'))]",
       "authorizations": [
