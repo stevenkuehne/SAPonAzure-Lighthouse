@@ -14,7 +14,7 @@
         "metadata": {
           "description": "This is the ID which we've sent you"
         },
-        "defaultValue": "<GroupID>"
+        "defaultValue": "[subscription().displayname]"
       }
     },
     "variables": {
