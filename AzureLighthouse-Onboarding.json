@@ -1,15 +1,6 @@
 {
     "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
-    "parameters": {
-      "groupId": {
-        "type": "string",
-        "metadata": {
-          "description": "This is the ID which we've sent you"
-        },
-        "defaultValue": "<enter Object-ID>"
-      }
-    },
     "variables": {
 	  "subscriptionName" : "[subscription().displayName]",
       "mspRegistrationName": "[guid(variables('mspOfferName'))]",
@@ -35,9 +26,49 @@
           "principalIdDisplayName": "(Group) msg services ag - Resource Policy Contributors" 
         },
         { 
-          "principalId": "[parameters('groupId')]", 
+          "principalId": "0c595386-6d39-4071-928d-5a51f22182dd", 
           "roleDefinitionId": "73c42c96-874c-492b-b04d-ab87d138a893",
           "principalIdDisplayName": "msg services ag - Log Analytics Reader" 
+        },
+        { 
+          "principalId": "f8289fd4-e946-40c1-8418-d54ca9785f8b", 
+          "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
+          "principalIdDisplayName": "msg services ag - Readers" 
+        },
+	{ 
+          "principalId": "68809b25-2cd1-4599-8357-bf05329de88d", 
+          "roleDefinitionId": "9980e02c-c2be-4d73-94e8-173b1dc7cf3c",
+          "principalIdDisplayName": "msg services ag - VM Contributors" 
+        },
+	{ 
+          "principalId": "f71bc7e6-857b-42ce-a24a-8e16a847c3ba", 
+          "roleDefinitionId": "fb879df8-f326-4884-b1cf-06f3ad86be52",
+          "principalIdDisplayName": "msg services ag - VM User Login" 
+        },
+	{ 
+          "principalId": "1597e880-dc8e-4d42-8f9a-4a1ab8a51ff4", 
+          "roleDefinitionId": "17d1049b-9a84-46fb-8f53-869881c3d3ab",
+          "principalIdDisplayName": "msg services ag - Storage Account Contributors" 
+        },
+	{ 
+          "principalId": "a1de05a6-373e-43e3-9d22-a18908a3c349", 
+          "roleDefinitionId": "c12c1c16-33a1-487b-954d-41c89c60f349",
+          "principalIdDisplayName": "msg services ag - Storage Account Readers and Data Access" 
+        },
+	{ 
+          "principalId": "7c00ea29-848b-431a-bf62-17dc998d970c", 
+          "roleDefinitionId": "749f88d5-cbae-40b8-bcfc-e573ddc772fa",
+          "principalIdDisplayName": "msg services ag - Monitor Contributors" 
+        },
+	{ 
+          "principalId": "9d3d2cc8-e830-4df4-9ae4-cb13807d960f", 
+          "roleDefinitionId": "43d0d8ad-25c7-4714-9337-8ba259a9fe05",
+          "principalIdDisplayName": "msg services ag - Monitor Readers" 
+        },
+	{ 
+          "principalId": "757cc1c3-2e66-4730-9c1d-deba290339d7", 
+          "roleDefinitionId": "ab8e14d6-4a74-4a29-9ba8-549422addade",
+          "principalIdDisplayName": "msg services ag - Sentinel Contributors" 
         }
       ]
     },
