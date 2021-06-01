@@ -12,6 +12,6 @@ When clicking the following button, Azure Lighthouse will be deployed through an
   - in the textfield "objectID" enter the objectID
   - Continue with "Review and Create" --> "Create"
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2F1DudeOnTheInternet%2Ftemp%2Fmain%2Ftemplate.json%3Ftoken%3DATOVE2B6NZOIKJM3ZRUB3XDAU66GM">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fstevenkuehne%2FSAPonAzure-Lighthouse%2Fmain%2FAzureLighthouse-Onboarding.json">
   <img src="https://aka.ms/deploytoazurebutton"/>
 </a>
