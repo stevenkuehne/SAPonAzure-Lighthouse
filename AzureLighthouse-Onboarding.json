@@ -13,17 +13,17 @@
         { 
           "principalId": "fc17f92d-75e5-4465-9d5c-dee78b1ca322", 
           "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
-          "principalIdDisplayName": "(Group) msg services ag - Contributors" 
+          "principalIdDisplayName": "msg services ag - Contributors" 
         }, 
         { 
           "principalId": "d02b4e2c-b1c2-42fd-9fbf-c14ef9ca8b60", 
           "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
-          "principalIdDisplayName": "(Group) msg services ag - Delegation Delete Role" 
+          "principalIdDisplayName": "msg services ag - Delegation Delete Role" 
         },
         { 
           "principalId": "d0d20c46-71e5-4397-b87d-2d20e7b5c300", 
           "roleDefinitionId": "36243c78-bf99-498c-9df9-86d9f8d28608",
-          "principalIdDisplayName": "(Group) msg services ag - Resource Policy Contributors" 
+          "principalIdDisplayName": "msg services ag - Resource Policy Contributors" 
         },
         { 
           "principalId": "0c595386-6d39-4071-928d-5a51f22182dd", 
